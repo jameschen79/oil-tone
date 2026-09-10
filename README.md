@@ -2,7 +2,7 @@
   <img src="./assets/readme/hero.svg" width="100%" alt="oil-tone：让 AI 文案保持真实、平实、完整和易读">
 </p>
 
-`oil-tone` 是一份给 AI 使用的个人文风 Skill。它帮助模型在事实边界内完成中文或英文成稿，减少空泛总结、刻意转折、含糊动作和没有信息的文案感。
+让代表 oil 本人的中文或英文成稿保持真实、清楚、自然，适用于文章、演讲和产品文案。
 
 它适用于博客、演讲稿、PPT 文案、网站与产品介绍、个人简介、公众号和社交帖子。规则有明确倾向，但不会要求所有内容套用同一种结构。
 
@@ -110,3 +110,25 @@ oil-tone/
 ## License
 
 [MIT](./LICENSE)
+
+## 配置、依赖与使用边界
+
+纯文本规范，无脚本安装、外部账号或 API Key 配置；支持能够读取 Markdown Skill 的 Agent。
+
+文风规则不提供事实依据；未确认经历不能写成事实。来源数值与计算矛盾时先核对，不因保留原文而延续错误。
+
+使用示例：
+
+```text
+用 oil-tone 润色这篇文章，保留事实和限制。
+```
+
+## GitHub 安装
+
+把 [仓库地址](https://github.com/oil-oil/oil-tone) 交给 Agent，要求按 README 安装；也可运行：
+
+```bash
+npx skills add oil-oil/oil-tone
+```
+
+安装后由宿主重新加载 Skill。
